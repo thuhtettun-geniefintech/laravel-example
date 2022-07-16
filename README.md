@@ -29,7 +29,7 @@ composer require thuhtet/laravel-example
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --tag="laravel-example-migrations"
+php artisan vendor:publish --tag="example-migrations"
 php artisan migrate
 ```
 
