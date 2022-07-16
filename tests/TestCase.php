@@ -30,6 +30,5 @@ class TestCase extends Orchestra
 
         $migration = include __DIR__.'/../database/migrations/create_example_table.php.stub';
         $migration->up();
-    
     }
 }

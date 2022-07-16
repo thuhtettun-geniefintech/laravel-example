@@ -8,9 +8,8 @@ it('can test model', function () {
     $car = Car::factory()->create([
         'car_plate' => '001',
         'brand' => 'BMW',
-        'price' => 1000 
+        'price' => 1000,
     ]);
 
     expect($car->getBrand())->toEqual('BMW');
-
 });
